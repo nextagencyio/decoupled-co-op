@@ -1,0 +1,158 @@
+{
+  "data": {
+    "nodeMemberFarms": {
+      "__typename": "NodeMemberFarmConnection",
+      "nodes": [
+        {
+          "__typename": "NodeMemberFarm",
+          "id": "farm-1",
+          "title": "Sunrise Acres Farm",
+          "path": "/farms/sunrise-acres",
+          "body": {
+            "processed": "<p>Sunrise Acres has been a cornerstone of Green Valley Co-op since 1994. Located in the fertile bottomlands along Cedar Creek, the Henderson family grows a diverse selection of heirloom vegetables and small fruits using regenerative farming practices.</p><h2>Our Story</h2><p>Started by Tom and Linda Henderson with just 12 acres, Sunrise Acres has grown into a 180-acre operation that supplies over 40 varieties of produce to farmers markets, restaurants, and CSA members throughout the region.</p><h2>Farming Practices</h2><p>We employ cover cropping, composting, and integrated pest management to maintain healthy soils and minimize environmental impact. Our commitment to sustainable agriculture earned us USDA Organic certification in 2005.</p>",
+            "summary": "Sunrise Acres has been a cornerstone of Green Valley Co-op since 1994. Located in the fertile bottomlands along Cedar Creek, the Henderson family grows a diverse selection of heirloom vegetables and s"
+          },
+          "farmImage": {
+            "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80",
+            "alt": "Sunrise Acres Farm with rows of vegetables",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "farmerName": "Tom & Linda Henderson",
+          "location": "Cedar Creek Valley, OR",
+          "acreage": "180 acres",
+          "specialties": [
+            "Heirloom Tomatoes",
+            "Sweet Corn",
+            "Berries",
+            "Salad Greens"
+          ],
+          "memberSince": "1994",
+          "certifications": [
+            "USDA Organic",
+            "Salmon-Safe"
+          ]
+        },
+        {
+          "__typename": "NodeMemberFarm",
+          "id": "farm-2",
+          "title": "Blue Sky Dairy",
+          "path": "/farms/blue-sky-dairy",
+          "body": {
+            "processed": "<p>Blue Sky Dairy is a third-generation family dairy farm nestled in the rolling hills east of Green Valley. The Martinez family has been producing premium milk, cheese, and yogurt for the co-op since 2001.</p><h2>Our Herd</h2><p>Our herd of 120 Jersey and Guernsey cows graze on lush pastures year-round. We believe happy cows produce the best milk, which is why we prioritize animal welfare and rotational grazing.</p><h2>Artisan Products</h2><p>In addition to fresh milk, we produce small-batch aged cheddar, creamy gouda, and thick Greek-style yogurt in our on-farm creamery. Our cheeses have won multiple awards at the Oregon Cheese Festival.</p>",
+            "summary": "Blue Sky Dairy is a third-generation family dairy farm nestled in the rolling hills east of Green Valley. The Martinez family has been producing premium milk, cheese, and yogurt for the co-op since 20"
+          },
+          "farmImage": {
+            "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&q=80",
+            "alt": "Dairy cows grazing on green pasture",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "farmerName": "Maria & Carlos Martinez",
+          "location": "Green Valley Hills, OR",
+          "acreage": "320 acres",
+          "specialties": [
+            "Raw Milk",
+            "Aged Cheddar",
+            "Gouda",
+            "Greek Yogurt"
+          ],
+          "memberSince": "2001",
+          "certifications": [
+            "Animal Welfare Approved",
+            "Non-GMO Project Verified"
+          ]
+        },
+        {
+          "__typename": "NodeMemberFarm",
+          "id": "farm-3",
+          "title": "Wild Meadow Apiary",
+          "path": "/farms/wild-meadow-apiary",
+          "body": {
+            "processed": "<p>Wild Meadow Apiary is a small-scale honey farm and pollination service operated by beekeeper Sarah Nguyen. With over 200 hives across multiple locations, Wild Meadow produces a stunning variety of single-origin honeys that capture the unique flavors of the region.</p><h2>Our Bees</h2><p>We raise hearty, locally-adapted bee colonies and prioritize natural beekeeping methods. Our hives are never treated with harsh chemicals, and we leave ample honey reserves for the bees to overwinter successfully.</p><h2>Pollination Services</h2><p>Our bees also provide vital pollination services to over a dozen co-op member farms, helping to boost yields for blueberries, apples, and squash.</p>",
+            "summary": "Wild Meadow Apiary is a small-scale honey farm and pollination service operated by beekeeper Sarah Nguyen. With over 200 hives across multiple locations, Wild Meadow produces a stunning variety of sin"
+          },
+          "farmImage": {
+            "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+            "alt": "Beekeeper tending hives in a wildflower meadow",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "farmerName": "Sarah Nguyen",
+          "location": "Meadow Ridge, OR",
+          "acreage": "45 acres",
+          "specialties": [
+            "Wildflower Honey",
+            "Lavender Honey",
+            "Creamed Honey",
+            "Beeswax Candles"
+          ],
+          "memberSince": "2012",
+          "certifications": [
+            "Bee Better Certified"
+          ]
+        }
+      ]
+    }
+  }
+}

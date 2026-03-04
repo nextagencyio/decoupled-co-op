@@ -1,0 +1,150 @@
+{
+  "data": {
+    "nodeNewses": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-1",
+          "title": "Five More Farms Achieve Organic Certification",
+          "path": "/news/organic-certification-expansion",
+          "body": {
+            "processed": "<p>We're thrilled to announce that five more Green Valley Co-op member farms have completed the transition to USDA Organic certification this spring, bringing our total to 28 certified organic operations.</p><p>The newly certified farms include Riverbend Orchards, Hilltop Greens, Prairie Wind Farm, Cedar Lane Berries, and Golden Valley Grains. Each farm completed the required three-year transition period while maintaining full production.</p><h2>Co-op Support Program</h2><p>These certifications were made possible in part by the co-op's Organic Transition Fund, which provides financial assistance and mentoring to farms pursuing organic certification. The fund covers up to 50% of inspection costs and provides access to organic-approved input suppliers at group rates.</p><p>\"The co-op's support made the transition feasible for our family,\" said Jake Morrison of Prairie Wind Farm. \"Having experienced organic farmers to call with questions was invaluable.\"</p>",
+            "summary": "We're thrilled to announce that five more Green Valley Co-op member farms have completed the transition to USDA Organic certification this spring, bringing our total to 28 certified organic operations"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+            "alt": "Organic farm field with USDA Organic sign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Green Valley Co-op Board",
+          "tags": [
+            {
+              "id": "organic",
+              "name": "organic"
+            },
+            {
+              "id": "announcement",
+              "name": "announcement"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-2",
+          "title": "Co-op Opens New Regional Distribution Hub",
+          "path": "/news/new-distribution-hub",
+          "body": {
+            "processed": "<p>Green Valley Agricultural Co-op has opened a new 15,000 sq. ft. distribution and cold storage facility in downtown Millfield, marking a major milestone in our mission to connect local farms with regional buyers.</p><h2>Expanded Reach</h2><p>The new hub enables us to aggregate produce from member farms and distribute to grocery stores, restaurants, and institutional buyers within a 150-mile radius. The facility includes:</p><ul><li>8,000 sq. ft. of temperature-controlled storage</li><li>A washing and packing line for produce</li><li>Loading docks for six trucks simultaneously</li><li>Office space for logistics coordination</li></ul><p>\"This facility will allow our small farms to access markets that were previously out of reach,\" said Co-op Manager Diana Chen. \"It's a game-changer for our members' livelihoods.\"</p>",
+            "summary": "Green Valley Agricultural Co-op has opened a new 15,000 sq. ft. distribution and cold storage facility in downtown Millfield, marking a major milestone in our mission to connect local farms with regio"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+            "alt": "Modern agricultural distribution warehouse",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Diana Chen",
+          "tags": [
+            {
+              "id": "announcement",
+              "name": "announcement"
+            },
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-3",
+          "title": "Youth Farmer Apprenticeship Program Launches This Spring",
+          "path": "/news/youth-farmer-program-launch",
+          "body": {
+            "processed": "<p>Green Valley Co-op is excited to announce the launch of our new Youth Farmer Apprenticeship Program, designed to train the next generation of sustainable farmers in our region.</p><h2>Program Details</h2><p>The six-month paid apprenticeship runs from April through September and places aspiring farmers aged 18-30 with experienced co-op member farms. Apprentices receive:</p><ul><li>Hands-on training in sustainable farming practices</li><li>Weekly classroom sessions on business planning, marketing, and farm management</li><li>A $15/hour stipend for 30 hours per week</li><li>Access to co-op resources and mentorship networks</li></ul><p>Applications are now open. We aim to place 10 apprentices in our inaugural cohort. Priority will be given to applicants from underserved communities and those with limited access to farmland.</p>",
+            "summary": "Green Valley Co-op is excited to announce the launch of our new Youth Farmer Apprenticeship Program, designed to train the next generation of sustainable farmers in our region.Program DetailsThe six-m"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=80",
+            "alt": "Young farmers working together in a field",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Sarah Nguyen",
+          "tags": [
+            {
+              "id": "community",
+              "name": "community"
+            },
+            {
+              "id": "sustainability",
+              "name": "sustainability"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,760 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Green Valley Agricultural Co-op",
+          "path": "/homepage",
+          "heroTitle": "Growing Together, Thriving Together",
+          "heroSubtitle": "Green Valley Agricultural Cooperative",
+          "heroDescription": {
+            "processed": "<p>For over 35 years, our member farms have worked together to bring the freshest, highest-quality produce and farm goods to communities across the region. Join us in supporting sustainable, local agriculture.</p>",
+            "summary": "For over 35 years, our member farms have worked together to bring the freshest, highest-quality produce and farm goods to communities across the region. Join us in supporting sustainable, local agricu"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800&q=80",
+            "alt": "Scenic view of green farmland at sunrise",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-members",
+              "title": "",
+              "number": "47",
+              "label": "Member Farms"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-acres",
+              "title": "",
+              "number": "12,000+",
+              "label": "Acres Farmed"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "35",
+              "label": "Years Strong"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-products",
+              "title": "",
+              "number": "200+",
+              "label": "Products Offered"
+            }
+          ],
+          "featuredItemsTitle": "Featured Farms",
+          "ctaTitle": "Become a Member",
+          "ctaDescription": {
+            "processed": "<p>Whether you run a small family homestead or a large commercial operation, Green Valley Co-op provides the resources, market access, and community support you need to succeed.</p>",
+            "summary": "Whether you run a small family homestead or a large commercial operation, Green Valley Co-op provides the resources, market access, and community support you need to succeed."
+          },
+          "ctaPrimary": "Apply for Membership",
+          "ctaSecondary": "Learn More"
+        }
+      }
+    }
+  },
+  "/farms/sunrise-acres": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMemberFarm",
+          "id": "farm-1",
+          "title": "Sunrise Acres Farm",
+          "path": "/farms/sunrise-acres",
+          "body": {
+            "processed": "<p>Sunrise Acres has been a cornerstone of Green Valley Co-op since 1994. Located in the fertile bottomlands along Cedar Creek, the Henderson family grows a diverse selection of heirloom vegetables and small fruits using regenerative farming practices.</p><h2>Our Story</h2><p>Started by Tom and Linda Henderson with just 12 acres, Sunrise Acres has grown into a 180-acre operation that supplies over 40 varieties of produce to farmers markets, restaurants, and CSA members throughout the region.</p><h2>Farming Practices</h2><p>We employ cover cropping, composting, and integrated pest management to maintain healthy soils and minimize environmental impact. Our commitment to sustainable agriculture earned us USDA Organic certification in 2005.</p>",
+            "summary": "Sunrise Acres has been a cornerstone of Green Valley Co-op since 1994. Located in the fertile bottomlands along Cedar Creek, the Henderson family grows a diverse selection of heirloom vegetables and s"
+          },
+          "farmImage": {
+            "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80",
+            "alt": "Sunrise Acres Farm with rows of vegetables",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "farmerName": "Tom & Linda Henderson",
+          "location": "Cedar Creek Valley, OR",
+          "acreage": "180 acres",
+          "specialties": [
+            "Heirloom Tomatoes",
+            "Sweet Corn",
+            "Berries",
+            "Salad Greens"
+          ],
+          "memberSince": "1994",
+          "certifications": [
+            "USDA Organic",
+            "Salmon-Safe"
+          ]
+        }
+      }
+    }
+  },
+  "/farms/blue-sky-dairy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMemberFarm",
+          "id": "farm-2",
+          "title": "Blue Sky Dairy",
+          "path": "/farms/blue-sky-dairy",
+          "body": {
+            "processed": "<p>Blue Sky Dairy is a third-generation family dairy farm nestled in the rolling hills east of Green Valley. The Martinez family has been producing premium milk, cheese, and yogurt for the co-op since 2001.</p><h2>Our Herd</h2><p>Our herd of 120 Jersey and Guernsey cows graze on lush pastures year-round. We believe happy cows produce the best milk, which is why we prioritize animal welfare and rotational grazing.</p><h2>Artisan Products</h2><p>In addition to fresh milk, we produce small-batch aged cheddar, creamy gouda, and thick Greek-style yogurt in our on-farm creamery. Our cheeses have won multiple awards at the Oregon Cheese Festival.</p>",
+            "summary": "Blue Sky Dairy is a third-generation family dairy farm nestled in the rolling hills east of Green Valley. The Martinez family has been producing premium milk, cheese, and yogurt for the co-op since 20"
+          },
+          "farmImage": {
+            "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&q=80",
+            "alt": "Dairy cows grazing on green pasture",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "farmerName": "Maria & Carlos Martinez",
+          "location": "Green Valley Hills, OR",
+          "acreage": "320 acres",
+          "specialties": [
+            "Raw Milk",
+            "Aged Cheddar",
+            "Gouda",
+            "Greek Yogurt"
+          ],
+          "memberSince": "2001",
+          "certifications": [
+            "Animal Welfare Approved",
+            "Non-GMO Project Verified"
+          ]
+        }
+      }
+    }
+  },
+  "/farms/wild-meadow-apiary": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMemberFarm",
+          "id": "farm-3",
+          "title": "Wild Meadow Apiary",
+          "path": "/farms/wild-meadow-apiary",
+          "body": {
+            "processed": "<p>Wild Meadow Apiary is a small-scale honey farm and pollination service operated by beekeeper Sarah Nguyen. With over 200 hives across multiple locations, Wild Meadow produces a stunning variety of single-origin honeys that capture the unique flavors of the region.</p><h2>Our Bees</h2><p>We raise hearty, locally-adapted bee colonies and prioritize natural beekeeping methods. Our hives are never treated with harsh chemicals, and we leave ample honey reserves for the bees to overwinter successfully.</p><h2>Pollination Services</h2><p>Our bees also provide vital pollination services to over a dozen co-op member farms, helping to boost yields for blueberries, apples, and squash.</p>",
+            "summary": "Wild Meadow Apiary is a small-scale honey farm and pollination service operated by beekeeper Sarah Nguyen. With over 200 hives across multiple locations, Wild Meadow produces a stunning variety of sin"
+          },
+          "farmImage": {
+            "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+            "alt": "Beekeeper tending hives in a wildflower meadow",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "farmerName": "Sarah Nguyen",
+          "location": "Meadow Ridge, OR",
+          "acreage": "45 acres",
+          "specialties": [
+            "Wildflower Honey",
+            "Lavender Honey",
+            "Creamed Honey",
+            "Beeswax Candles"
+          ],
+          "memberSince": "2012",
+          "certifications": [
+            "Bee Better Certified"
+          ]
+        }
+      }
+    }
+  },
+  "/products/heirloom-tomato-medley": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-1",
+          "title": "Heirloom Tomato Medley",
+          "path": "/products/heirloom-tomato-medley",
+          "body": {
+            "processed": "<p>A gorgeous mix of our finest heirloom tomato varieties, hand-picked at peak ripeness from Sunrise Acres Farm. Each box contains a colorful assortment of Brandywine, Cherokee Purple, Green Zebra, and Sun Gold tomatoes.</p><p>Perfect for summer salads, fresh salsas, and bruschetta. These tomatoes are grown without synthetic pesticides and harvested within 24 hours of delivery.</p>",
+            "summary": "A gorgeous mix of our finest heirloom tomato varieties, hand-picked at peak ripeness from Sunrise Acres Farm. Each box contains a colorful assortment of Brandywine, Cherokee Purple, Green Zebra, and S"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=800&q=80",
+            "alt": "Colorful heirloom tomatoes in a basket",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "pricePerUnit": "$6.50",
+          "unitType": "per pound",
+          "season": "June - September",
+          "originFarm": "Sunrise Acres Farm",
+          "organic": true,
+          "category": [
+            {
+              "id": "Vegetables",
+              "name": "Vegetables"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/products/aged-farmstead-cheddar": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-2",
+          "title": "Aged Farmstead Cheddar",
+          "path": "/products/aged-farmstead-cheddar",
+          "body": {
+            "processed": "<p>Our signature aged cheddar is crafted in small batches using raw milk from Blue Sky Dairy's pasture-raised Jersey cows. Each wheel is cave-aged for a minimum of 12 months, developing a rich, complex flavor with crystalline texture.</p><p>Winner of the 2024 Oregon Cheese Festival Gold Medal. Perfect for cheese boards, grating over pasta, or enjoying on its own with a glass of wine.</p>",
+            "summary": "Our signature aged cheddar is crafted in small batches using raw milk from Blue Sky Dairy's pasture-raised Jersey cows. Each wheel is cave-aged for a minimum of 12 months, developing a rich, complex f"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+            "alt": "Wedge of aged cheddar cheese on a wooden board",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "pricePerUnit": "$14.00",
+          "unitType": "per half pound",
+          "season": "Year-round",
+          "originFarm": "Blue Sky Dairy",
+          "organic": false,
+          "category": [
+            {
+              "id": "Dairy",
+              "name": "Dairy"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/products/wildflower-honey": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-3",
+          "title": "Wildflower Honey",
+          "path": "/products/wildflower-honey",
+          "body": {
+            "processed": "<p>Raw, unfiltered wildflower honey harvested from Wild Meadow Apiary's hives situated in pristine meadows throughout the Green Valley region. Each jar captures the unique floral profile of the season, with notes of clover, blackberry blossom, and wild mint.</p><p>Never heated or ultra-filtered, our honey retains all its natural enzymes, pollen, and beneficial properties. Available in 8oz, 16oz, and 32oz jars.</p>",
+            "summary": "Raw, unfiltered wildflower honey harvested from Wild Meadow Apiary's hives situated in pristine meadows throughout the Green Valley region. Each jar captures the unique floral profile of the season, w"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80",
+            "alt": "Jar of golden wildflower honey with honeycomb",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "pricePerUnit": "$12.00",
+          "unitType": "per 16oz jar",
+          "season": "Late Summer",
+          "originFarm": "Wild Meadow Apiary",
+          "organic": false,
+          "category": [
+            {
+              "id": "Honey",
+              "name": "Honey"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/events/summer-farmers-market-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-1",
+          "title": "Summer Farmers Market Opening Day",
+          "path": "/events/summer-farmers-market-2026",
+          "body": {
+            "processed": "<p>Join us as we kick off the 2026 summer farmers market season! Over 30 member farms will be on hand with fresh produce, artisan cheeses, baked goods, flowers, and more.</p><h2>What to Expect</h2><ul><li>Live bluegrass music from The Valley Ramblers</li><li>Kids activities and face painting</li><li>Cooking demonstrations by Chef Rosa Delgado</li><li>Free coffee and pastries for the first 100 visitors</li></ul><p>Bring your reusable bags and come hungry!</p>",
+            "summary": "Join us as we kick off the 2026 summer farmers market season! Over 30 member farms will be on hand with fresh produce, artisan cheeses, baked goods, flowers, and more.What to ExpectLive bluegrass musi"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+            "alt": "Bustling outdoor farmers market with produce stands",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1780750800
+          },
+          "location": "Green Valley Town Square, Main Street",
+          "eventType": "Farmers Market",
+          "admission": "Free"
+        }
+      }
+    }
+  },
+  "/events/soil-health-workshop": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-2",
+          "title": "Soil Health & Cover Cropping Workshop",
+          "path": "/events/soil-health-workshop",
+          "body": {
+            "processed": "<p>Learn the latest techniques in soil health management from Dr. Elena Vasquez of Oregon State University Extension Service. This hands-on workshop will cover cover crop selection, no-till methods, and soil biology.</p><h2>Workshop Topics</h2><ul><li>Understanding your soil microbiome</li><li>Cover crop species selection for the Pacific Northwest</li><li>No-till and reduced tillage techniques</li><li>Composting and soil amendment strategies</li></ul><p>Open to co-op members and the general public. Lunch is provided. Please register in advance as space is limited to 40 participants.</p>",
+            "summary": "Learn the latest techniques in soil health management from Dr. Elena Vasquez of Oregon State University Extension Service. This hands-on workshop will cover cover crop selection, no-till methods, and "
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+            "alt": "Hands holding rich dark soil with earthworms",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1776520800
+          },
+          "location": "Sunrise Acres Farm, Cedar Creek Valley",
+          "eventType": "Workshop",
+          "admission": "$25 members / $40 non-members"
+        }
+      }
+    }
+  },
+  "/events/annual-harvest-festival": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-3",
+          "title": "Annual Harvest Festival & Barn Dance",
+          "path": "/events/annual-harvest-festival",
+          "body": {
+            "processed": "<p>Celebrate the end of another bountiful growing season at our beloved Annual Harvest Festival! This family-friendly event features farm tours, a pumpkin patch, hayrides, and our legendary barn dance with live music.</p><h2>Schedule</h2><ul><li>10:00 AM - Farm tours and pumpkin patch open</li><li>11:00 AM - Apple cider pressing demonstration</li><li>12:00 PM - Potluck lunch (bring a dish to share!)</li><li>2:00 PM - Pie baking contest judging</li><li>4:00 PM - Barn dance with The Harvest Moon Band</li></ul>",
+            "summary": "Celebrate the end of another bountiful growing season at our beloved Annual Harvest Festival! This family-friendly event features farm tours, a pumpkin patch, hayrides, and our legendary barn dance wi"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+            "alt": "Autumn harvest scene with pumpkins and fall decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1791644400
+          },
+          "location": "Blue Sky Dairy, Green Valley Hills",
+          "eventType": "Festival",
+          "admission": "$10 per family"
+        }
+      }
+    }
+  },
+  "/news/organic-certification-expansion": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-1",
+          "title": "Five More Farms Achieve Organic Certification",
+          "path": "/news/organic-certification-expansion",
+          "body": {
+            "processed": "<p>We're thrilled to announce that five more Green Valley Co-op member farms have completed the transition to USDA Organic certification this spring, bringing our total to 28 certified organic operations.</p><p>The newly certified farms include Riverbend Orchards, Hilltop Greens, Prairie Wind Farm, Cedar Lane Berries, and Golden Valley Grains. Each farm completed the required three-year transition period while maintaining full production.</p><h2>Co-op Support Program</h2><p>These certifications were made possible in part by the co-op's Organic Transition Fund, which provides financial assistance and mentoring to farms pursuing organic certification. The fund covers up to 50% of inspection costs and provides access to organic-approved input suppliers at group rates.</p><p>\"The co-op's support made the transition feasible for our family,\" said Jake Morrison of Prairie Wind Farm. \"Having experienced organic farmers to call with questions was invaluable.\"</p>",
+            "summary": "We're thrilled to announce that five more Green Valley Co-op member farms have completed the transition to USDA Organic certification this spring, bringing our total to 28 certified organic operations"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+            "alt": "Organic farm field with USDA Organic sign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Green Valley Co-op Board",
+          "tags": [
+            {
+              "id": "organic",
+              "name": "organic"
+            },
+            {
+              "id": "announcement",
+              "name": "announcement"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/new-distribution-hub": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-2",
+          "title": "Co-op Opens New Regional Distribution Hub",
+          "path": "/news/new-distribution-hub",
+          "body": {
+            "processed": "<p>Green Valley Agricultural Co-op has opened a new 15,000 sq. ft. distribution and cold storage facility in downtown Millfield, marking a major milestone in our mission to connect local farms with regional buyers.</p><h2>Expanded Reach</h2><p>The new hub enables us to aggregate produce from member farms and distribute to grocery stores, restaurants, and institutional buyers within a 150-mile radius. The facility includes:</p><ul><li>8,000 sq. ft. of temperature-controlled storage</li><li>A washing and packing line for produce</li><li>Loading docks for six trucks simultaneously</li><li>Office space for logistics coordination</li></ul><p>\"This facility will allow our small farms to access markets that were previously out of reach,\" said Co-op Manager Diana Chen. \"It's a game-changer for our members' livelihoods.\"</p>",
+            "summary": "Green Valley Agricultural Co-op has opened a new 15,000 sq. ft. distribution and cold storage facility in downtown Millfield, marking a major milestone in our mission to connect local farms with regio"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+            "alt": "Modern agricultural distribution warehouse",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Diana Chen",
+          "tags": [
+            {
+              "id": "announcement",
+              "name": "announcement"
+            },
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/youth-farmer-program-launch": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-3",
+          "title": "Youth Farmer Apprenticeship Program Launches This Spring",
+          "path": "/news/youth-farmer-program-launch",
+          "body": {
+            "processed": "<p>Green Valley Co-op is excited to announce the launch of our new Youth Farmer Apprenticeship Program, designed to train the next generation of sustainable farmers in our region.</p><h2>Program Details</h2><p>The six-month paid apprenticeship runs from April through September and places aspiring farmers aged 18-30 with experienced co-op member farms. Apprentices receive:</p><ul><li>Hands-on training in sustainable farming practices</li><li>Weekly classroom sessions on business planning, marketing, and farm management</li><li>A $15/hour stipend for 30 hours per week</li><li>Access to co-op resources and mentorship networks</li></ul><p>Applications are now open. We aim to place 10 apprentices in our inaugural cohort. Priority will be given to applicants from underserved communities and those with limited access to farmland.</p>",
+            "summary": "Green Valley Co-op is excited to announce the launch of our new Youth Farmer Apprenticeship Program, designed to train the next generation of sustainable farmers in our region.Program DetailsThe six-m"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=80",
+            "alt": "Young farmers working together in a field",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Sarah Nguyen",
+          "tags": [
+            {
+              "id": "community",
+              "name": "community"
+            },
+            {
+              "id": "sustainability",
+              "name": "sustainability"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Green Valley Co-op",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Green Valley Agricultural Cooperative was founded in 1991 by a group of 12 local farmers who shared a vision: by working together, small and mid-sized farms could compete in the marketplace while preserving the rural character and environmental health of our region.</p><h2>Our Mission</h2><p>To strengthen local agriculture by providing cooperative marketing, shared resources, and community support that enables member farms to thrive economically while stewarding the land for future generations.</p><h2>How We Work</h2><p>Our member-owned cooperative operates on democratic principles. Each member farm has one vote regardless of size, and profits are distributed equitably based on participation. We provide:</p><ul><li>Collective marketing and brand identity</li><li>Shared equipment and cold storage</li><li>Group purchasing for seeds, feed, and supplies</li><li>Technical assistance and educational programs</li><li>Access to local and regional markets</li></ul><h2>Board of Directors</h2><p>Our seven-member board is elected annually by the membership and serves on a volunteer basis. Board meetings are open to all members.</p>",
+            "summary": "Green Valley Agricultural Cooperative was founded in 1991 by a group of 12 local farmers who shared a vision: by working together, small and mid-sized farms could compete in the marketplace while pres"
+          }
+        }
+      }
+    }
+  },
+  "/membership": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-membership",
+          "title": "Membership Information",
+          "path": "/membership",
+          "body": {
+            "processed": "<p>Membership in Green Valley Agricultural Cooperative is open to all farms and food producers operating within 75 miles of Green Valley, Oregon.</p><h2>Membership Benefits</h2><ul><li>Access to the co-op's distribution network and farmers market stalls</li><li>Use of shared equipment including a mobile processing unit and cold storage</li><li>Group purchasing discounts on seeds, fertilizer, and supplies</li><li>Marketing support including website listing, social media, and print materials</li><li>Educational workshops and farm tours</li><li>Voting rights on co-op governance decisions</li></ul><h2>Membership Requirements</h2><ul><li>Annual membership fee: $250 (sliding scale available)</li><li>One-time equity share purchase: $500</li><li>Commitment to sustainable farming practices</li><li>Participation in at least two co-op events per year</li></ul><h2>How to Apply</h2><p>Complete our online application or contact our membership coordinator at membership@greenvalleycoop.org. New member applications are reviewed quarterly by the membership committee.</p>",
+            "summary": "Membership in Green Valley Agricultural Cooperative is open to all farms and food producers operating within 75 miles of Green Valley, Oregon.Membership BenefitsAccess to the co-op's distribution netw"
+          }
+        }
+      }
+    }
+  }
+}

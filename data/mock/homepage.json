@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Green Valley Agricultural Co-op",
+          "path": "/homepage",
+          "heroTitle": "Growing Together, Thriving Together",
+          "heroSubtitle": "Green Valley Agricultural Cooperative",
+          "heroDescription": {
+            "processed": "<p>For over 35 years, our member farms have worked together to bring the freshest, highest-quality produce and farm goods to communities across the region. Join us in supporting sustainable, local agriculture.</p>",
+            "summary": "For over 35 years, our member farms have worked together to bring the freshest, highest-quality produce and farm goods to communities across the region. Join us in supporting sustainable, local agricu"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800&q=80",
+            "alt": "Scenic view of green farmland at sunrise",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-members",
+              "title": "",
+              "number": "47",
+              "label": "Member Farms"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-acres",
+              "title": "",
+              "number": "12,000+",
+              "label": "Acres Farmed"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "35",
+              "label": "Years Strong"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-products",
+              "title": "",
+              "number": "200+",
+              "label": "Products Offered"
+            }
+          ],
+          "featuredItemsTitle": "Featured Farms",
+          "ctaTitle": "Become a Member",
+          "ctaDescription": {
+            "processed": "<p>Whether you run a small family homestead or a large commercial operation, Green Valley Co-op provides the resources, market access, and community support you need to succeed.</p>",
+            "summary": "Whether you run a small family homestead or a large commercial operation, Green Valley Co-op provides the resources, market access, and community support you need to succeed."
+          },
+          "ctaPrimary": "Apply for Membership",
+          "ctaSecondary": "Learn More"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-1",
+          "title": "Summer Farmers Market Opening Day",
+          "path": "/events/summer-farmers-market-2026",
+          "body": {
+            "processed": "<p>Join us as we kick off the 2026 summer farmers market season! Over 30 member farms will be on hand with fresh produce, artisan cheeses, baked goods, flowers, and more.</p><h2>What to Expect</h2><ul><li>Live bluegrass music from The Valley Ramblers</li><li>Kids activities and face painting</li><li>Cooking demonstrations by Chef Rosa Delgado</li><li>Free coffee and pastries for the first 100 visitors</li></ul><p>Bring your reusable bags and come hungry!</p>",
+            "summary": "Join us as we kick off the 2026 summer farmers market season! Over 30 member farms will be on hand with fresh produce, artisan cheeses, baked goods, flowers, and more.What to ExpectLive bluegrass musi"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+            "alt": "Bustling outdoor farmers market with produce stands",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1780750800
+          },
+          "location": "Green Valley Town Square, Main Street",
+          "eventType": "Farmers Market",
+          "admission": "Free"
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-2",
+          "title": "Soil Health & Cover Cropping Workshop",
+          "path": "/events/soil-health-workshop",
+          "body": {
+            "processed": "<p>Learn the latest techniques in soil health management from Dr. Elena Vasquez of Oregon State University Extension Service. This hands-on workshop will cover cover crop selection, no-till methods, and soil biology.</p><h2>Workshop Topics</h2><ul><li>Understanding your soil microbiome</li><li>Cover crop species selection for the Pacific Northwest</li><li>No-till and reduced tillage techniques</li><li>Composting and soil amendment strategies</li></ul><p>Open to co-op members and the general public. Lunch is provided. Please register in advance as space is limited to 40 participants.</p>",
+            "summary": "Learn the latest techniques in soil health management from Dr. Elena Vasquez of Oregon State University Extension Service. This hands-on workshop will cover cover crop selection, no-till methods, and "
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+            "alt": "Hands holding rich dark soil with earthworms",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1776520800
+          },
+          "location": "Sunrise Acres Farm, Cedar Creek Valley",
+          "eventType": "Workshop",
+          "admission": "$25 members / $40 non-members"
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-3",
+          "title": "Annual Harvest Festival & Barn Dance",
+          "path": "/events/annual-harvest-festival",
+          "body": {
+            "processed": "<p>Celebrate the end of another bountiful growing season at our beloved Annual Harvest Festival! This family-friendly event features farm tours, a pumpkin patch, hayrides, and our legendary barn dance with live music.</p><h2>Schedule</h2><ul><li>10:00 AM - Farm tours and pumpkin patch open</li><li>11:00 AM - Apple cider pressing demonstration</li><li>12:00 PM - Potluck lunch (bring a dish to share!)</li><li>2:00 PM - Pie baking contest judging</li><li>4:00 PM - Barn dance with The Harvest Moon Band</li></ul>",
+            "summary": "Celebrate the end of another bountiful growing season at our beloved Annual Harvest Festival! This family-friendly event features farm tours, a pumpkin patch, hayrides, and our legendary barn dance wi"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+            "alt": "Autumn harvest scene with pumpkins and fall decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1791644400
+          },
+          "location": "Blue Sky Dairy, Green Valley Hills",
+          "eventType": "Festival",
+          "admission": "$10 per family"
+        }
+      ]
+    }
+  }
+}

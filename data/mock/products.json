@@ -1,0 +1,150 @@
+{
+  "data": {
+    "nodeProducts": {
+      "__typename": "NodeProductConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProduct",
+          "id": "product-1",
+          "title": "Heirloom Tomato Medley",
+          "path": "/products/heirloom-tomato-medley",
+          "body": {
+            "processed": "<p>A gorgeous mix of our finest heirloom tomato varieties, hand-picked at peak ripeness from Sunrise Acres Farm. Each box contains a colorful assortment of Brandywine, Cherokee Purple, Green Zebra, and Sun Gold tomatoes.</p><p>Perfect for summer salads, fresh salsas, and bruschetta. These tomatoes are grown without synthetic pesticides and harvested within 24 hours of delivery.</p>",
+            "summary": "A gorgeous mix of our finest heirloom tomato varieties, hand-picked at peak ripeness from Sunrise Acres Farm. Each box contains a colorful assortment of Brandywine, Cherokee Purple, Green Zebra, and S"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=800&q=80",
+            "alt": "Colorful heirloom tomatoes in a basket",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "pricePerUnit": "$6.50",
+          "unitType": "per pound",
+          "season": "June - September",
+          "originFarm": "Sunrise Acres Farm",
+          "organic": true,
+          "category": [
+            {
+              "id": "Vegetables",
+              "name": "Vegetables"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProduct",
+          "id": "product-2",
+          "title": "Aged Farmstead Cheddar",
+          "path": "/products/aged-farmstead-cheddar",
+          "body": {
+            "processed": "<p>Our signature aged cheddar is crafted in small batches using raw milk from Blue Sky Dairy's pasture-raised Jersey cows. Each wheel is cave-aged for a minimum of 12 months, developing a rich, complex flavor with crystalline texture.</p><p>Winner of the 2024 Oregon Cheese Festival Gold Medal. Perfect for cheese boards, grating over pasta, or enjoying on its own with a glass of wine.</p>",
+            "summary": "Our signature aged cheddar is crafted in small batches using raw milk from Blue Sky Dairy's pasture-raised Jersey cows. Each wheel is cave-aged for a minimum of 12 months, developing a rich, complex f"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+            "alt": "Wedge of aged cheddar cheese on a wooden board",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "pricePerUnit": "$14.00",
+          "unitType": "per half pound",
+          "season": "Year-round",
+          "originFarm": "Blue Sky Dairy",
+          "organic": false,
+          "category": [
+            {
+              "id": "Dairy",
+              "name": "Dairy"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProduct",
+          "id": "product-3",
+          "title": "Wildflower Honey",
+          "path": "/products/wildflower-honey",
+          "body": {
+            "processed": "<p>Raw, unfiltered wildflower honey harvested from Wild Meadow Apiary's hives situated in pristine meadows throughout the Green Valley region. Each jar captures the unique floral profile of the season, with notes of clover, blackberry blossom, and wild mint.</p><p>Never heated or ultra-filtered, our honey retains all its natural enzymes, pollen, and beneficial properties. Available in 8oz, 16oz, and 32oz jars.</p>",
+            "summary": "Raw, unfiltered wildflower honey harvested from Wild Meadow Apiary's hives situated in pristine meadows throughout the Green Valley region. Each jar captures the unique floral profile of the season, w"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80",
+            "alt": "Jar of golden wildflower honey with honeycomb",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "pricePerUnit": "$12.00",
+          "unitType": "per 16oz jar",
+          "season": "Late Summer",
+          "originFarm": "Wild Meadow Apiary",
+          "organic": false,
+          "category": [
+            {
+              "id": "Honey",
+              "name": "Honey"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
