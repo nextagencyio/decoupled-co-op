@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-members",
               "title": "",
-              "number": "47",
+              "number": "47", "value": "47",
               "label": "Member Farms"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-acres",
               "title": "",
-              "number": "12,000+",
+              "number": "12,000+", "value": "12,000+",
               "label": "Acres Farmed"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "35",
+              "number": "35", "value": "35",
               "label": "Years Strong"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-products",
               "title": "",
-              "number": "200+",
+              "number": "200+", "value": "200+",
               "label": "Products Offered"
             }
           ],
