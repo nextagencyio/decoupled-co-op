@@ -23,8 +23,6 @@ export const GET_HOMEPAGE_DATA = gql`
           variations(styles: [LARGE, MEDIUM]) {
             name
             url
-            width
-            height
           }
         }
         statsItems {
@@ -286,7 +284,7 @@ export const GET_EVENT_BY_PATH = gql`
 // News
 export const GET_NEWS = gql`
   query GetNews($first: Int = 20) {
-    nodeNewses(first: $first, sortKey: CREATED_AT) {
+    nodeNewsItems(first: $first, sortKey: CREATED_AT) {
       nodes {
         __typename
         id
@@ -523,8 +521,6 @@ export const GET_FEATURED_ITEMS = gql`
             variations(styles: [MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }

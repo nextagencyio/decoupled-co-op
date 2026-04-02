@@ -1,6 +1,6 @@
 {
   "data": {
-    "nodeNewses": {
+    "nodeNewsItems": {
       "__typename": "NodeNewsConnection",
       "nodes": [
         {
