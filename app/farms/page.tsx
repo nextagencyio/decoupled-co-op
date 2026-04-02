@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getMemberFarms() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_MEMBER_FARMS, { first: 50 })
+    const data = await client.raw(GET_MEMBER_FARMS, { first: 50 })
     return data?.nodeMemberFarms?.nodes || []
   } catch (error) {
     console.error('Error fetching member farms:', error)
@@ -55,7 +55,7 @@ export default async function MemberFarmsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <MemberFarmCard key={item.id} item={item} />
               ))}
             </div>
